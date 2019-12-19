@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace NewAndOverrideAnotherExample
 {
@@ -59,7 +58,7 @@ namespace NewAndOverrideAnotherExample
         {
             Console.WriteLine("\nTestCars4");
             Console.WriteLine("----------");
-            
+
             Car car2 = new ConvertibleCar();
             Car car3 = new Minivan();
 
