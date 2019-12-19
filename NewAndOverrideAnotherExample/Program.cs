@@ -6,7 +6,9 @@ namespace NewAndOverrideAnotherExample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ControlClass objectControl = new ControlClass();
+            //objectControl.TestCars1();
+            objectControl.TestCars2();
         }
     }
 }
